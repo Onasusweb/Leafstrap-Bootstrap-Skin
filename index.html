@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Leafstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html">Leafstrap</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="">
+                <a href="./getting-started.html">Get started</a>
+              </li>
+              <li class="">
+                <a href="./scaffolding.html">Scaffolding</a>
+              </li>
+              <li class="">
+                <a href="./base-css.html">Base CSS</a>
+              </li>
+              <li class="">
+                <a href="./components.html">Components</a>
+              </li>
+              <li class="">
+                <a href="./javascript.html">JavaScript</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="jumbotron masthead">
+  <div class="container">
+    <h1>Leafstrap</h1>
+    <p>A Clean And Elegant Bootstrap CSS Skin.</p>
+    <p>
+      <a href="assets/bootstrap.zip" class="btn btn-primary btn-large" >Purchase Skin</a>
+    </p>
+    <ul class="masthead-links">
+      <li>
+        Skin Version 1.0
+      </li>
+      <li>
+        Bootstrap Version 2.3.1
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="container">
+<div class="marketing">
+<p class="marketing-byline"></p>
+<div class="row-fluid">
+<div class="span4">
+<img src="assets/img/bs-docs-twitter-github.png">
+<h2>By nerds, for nerds.</h2>
+<p>Built at Twitter by <a href="http://twitter.com/mdo">@mdo</a> and <a href="http://twitter.com/fat">@fat</a>, custom skin created by JMD Designs @ Envato.</p>
+</div>
+<div class="span4">
+<img src="assets/img/bs-docs-responsive-illustrations.png">
+<h2>Made for everyone.</h2>
+<p>Like the original Bootstrap, nothing changes except your theme.</p>
+</div>
+<div class="span4">
+<img src="assets/img/bs-docs-bootstrap-features.png">
+<h2>Packed with features.</h2>
+<p>Still packed with the old Bootstrap you remember, yet now it is even bigger.</p>
+</div>
+</div>
+<hr class="soften">
+</div>
+<div class="container">
+<h1>Nav Bar</h1>
+<div class="navbar">
+<div class="navbar-inner">
+<div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<a class="brand" href="#">Title</a>
+<div class="nav-collapse">
+<ul class="nav">
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#">Link</a></li>
+<li><a href="#">Link</a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="#">Action</a></li>
+<li><a href="#">Another action</a></li>
+<li><a href="#">Something else here</a></li>
+<li class="divider"></li>
+<li class="nav-header">Nav header</li>
+<li><a href="#">Separated link</a></li>
+<li><a href="#">One more separated link</a></li>
+</ul>
+</li>
+</ul>
+<form class="navbar-search pull-left" action="">
+<input type="text" class="search-query span2" placeholder="Search">
+</form>
+<ul class="nav pull-right">
+<li><a href="#">Link</a></li>
+<li class="divider-vertical"></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="#">Action</a></li>
+<li class="active"><a href="#">Another action</a></li>
+<li><a href="#">Something else here</a></li>
+<li class="divider"></li>
+<li><a href="#">Separated link</a></li>
+</ul>
+</li>
+</ul>
+</div> 
+</div>
+</div> 
+</div>
+<h1>Nav Bar Styled</h1>
+<div class="navbar navbar-inverse">
+<div class="navbar-inner">
+<div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<a class="brand" href="#">Title</a>
+<div class="nav-collapse">
+<ul class="nav">
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#">Link</a></li>
+<li><a href="#">Link</a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="#">Action</a></li>
+<li><a href="#">Another action</a></li>
+<li><a href="#">Something else here</a></li>
+<li class="divider"></li>
+<li class="nav-header">Nav header</li>
+<li><a href="#">Separated link</a></li>
+<li><a href="#">One more separated link</a></li>
+</ul>
+</li>
+</ul>
+<form class="navbar-search pull-left" action="">
+<input type="text" class="search-query span2" placeholder="Search">
+</form>
+<ul class="nav pull-right">
+<li><a href="#">Link</a></li>
+<li class="divider-vertical"></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="#">Action</a></li>
+<li class="active"><a href="#">Another action</a></li>
+<li><a href="#">Something else here</a></li>
+<li class="divider"></li>
+<li><a href="#">Separated link</a></li>
+</ul>
+</li>
+</ul>
+</div> 
+</div>
+</div> 
+</div>
+<div class="hero-unit">
+<h1>Royal Bootstrap</h1>
+<p>The same Bootstrap you remember, just prettier.</p>
+<p>
+<a class="btn btn-primary btn-large">
+Go ahead, check it out!
+</a>
+</p>
+</div>
+<ul class="breadcrumb">
+<li><a href="#">Home</a> <span class="divider">/</span></li>
+<li><a href="#">Library</a> <span class="divider">/</span></li>
+<li class="active">Data</li>
+</ul>
+<div class="row">
+<div class="span4">
+<h3>Standard Paragraph</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt ante egestas velit dapibus adipiscing. Etiam est ligula, venenatis quis facilisis eget, rhoncus et magna. Vivamus blandit pretium tempus. Pellentesque in lorem eget diam ullamcorper pellentesque sed ut massa. Sed varius feugiat felis, at scelerisque ligula accumsan dignissim. Donec vitae velit sit amet magna lacinia dignissim in vitae ante. Ut nulla urna, sodales id placerat ut, interdum quis ipsum. Integer quam purus, convallis eget commodo id, facilisis sit amet lacus. Sed mattis, est vel eleifend mattis, arcu mi posuere dolor, nec aliquet velit felis non neque. Suspendisse auctor mauris sed odio pharetra iaculis luctus lectus gravida. Donec lectus eros, dictum quis eleifend sed, posuere vel lacus. Integer venenatis, dui nec ultrices feugiat, lacus ante euismod tortor, scelerisque cursus justo dolor eget metus. Integer metus elit, hendrerit eu gravida sed, molestie id tortor.
+<hr class="soften">
+<h3>Pilled Navigation</h3>
+<ul class="nav nav-pills">
+<li class="active">
+<a href="#">Home</a>
+</li>
+<li><a href="#">More</a></li>
+<li><a href="#">Menu</a></li>
+<li><a href="#">More</a></li>
+<li><a href="#">Menu</a></li>
+</ul>
+<hr class="soften">
+<h3>Tabbed Navigation</h3>
+<ul class="nav nav-list">
+<li class="nav-header">Nav List Header</li>
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#">Library <span class="badge badge-info">485</span></a></li>
+<li><a href="#">Database <span class="badge badge-success">22</span></a></li>
+<li><a href="#">MySQL <span class="badge">81</span></a></li>
+<li><a href="#">Cloud <span class="badge badge-warning">9867</span></a></li>
+</ul>
+<hr class="soften">
+<h3>Thumbnail Detailed</h3>
+<ul class="thumbnails">
+<li class="span4">
+<div class="thumbnail">
+<img src="http://placehold.it/360x270" alt="">
+<h3>Beautiful Designs</h3>
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt ante egestas velit dapibus adipiscing. Etiam est ligula, venenatis quis facilisis eget, rhoncus et magna.</p>
+</div>
+</li>
+</ul>
+<hr class="soften">
+<h3>Grouped Buttons</h3>
+<div class="btn-toolbar">
+<div class="btn-group">
+<div class="btn">&lt;</div>
+<div class="btn">Data</div>
+<div class="btn">Records</div>
+<div class="btn">Button</div>
+<div class="btn">Love</div>
+<div class="btn">&gt;</div>
+</div>
+</div>
+<h4>Grouped Buttons Active State</h4>
+<div class="btn-toolbar">
+<div class="btn-group">
+<div class="btn">&lt;</div>
+<div class="btn">Data</div>
+<div class="btn active">Records</div>
+<div class="btn">Button</div>
+<div class="btn">Love</div>
+<div class="btn">&gt;</div>
+</div>
+</div>
+<h4>Grouped Buttons Disabled State</h4>
+<div class="btn-toolbar">
+<div class="btn-group">
+<div class="btn">&lt;</div>
+<div class="btn">Data</div>
+<div class="btn">Records</div>
+<div class="btn disabled">Button</div>
+<div class="btn">Love</div>
+<div class="btn">&gt;</div>
+</div>
+</div>
+<hr class="soften">
+<h3>Tabs</h3>
+<script type="text/rocketscript">
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+<ul class="nav nav-tabs">
+<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+<li><a href="#profile" data-toggle="tab">Profile</a></li>
+<li><a href="#messages" data-toggle="tab">Messages</a></li>
+<li><a href="#settings" data-toggle="tab">Settings</a></li>
+</ul>
+</div>
+<div class="span8">
+<h1>Headings</h1>
+<div class="bs-docs-example">
+<h1>h1. Heading 1</h1>
+<h2>h2. Heading 2</h2>
+<h3>h3. Heading 3</h3>
+<h4>h4. Heading 4</h4>
+<h5>h5. Heading 5</h5>
+<h6>h6. Heading 6</h6>
+</div>
+<h1>Quotes</h1>
+<div class="bs-docs-example">
+<blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. </p>
+<small class="pull-right">Someone famous <cite title="Source Title">Source Title</cite></small>
+</blockquote>
+</div>
+<h1>Forms</h1>
+<div class="bs-docs-example">
+<form class="form-horizontal">
+<div class="control-group">
+<label class="control-label" for="inputEmail">Email</label>
+<div class="controls">
+<input type="text" id="inputEmail" placeholder="Email">
+</div>
+</div>
+<div class="control-group">
+<label class="control-label" for="inputPassword">Password</label>
+<div class="controls">
+<input type="password" id="inputPassword" placeholder="Password">
+</div>
+</div>
+<div class="control-group">
+<div class="controls">
+<label class="checkbox">
+<input type="checkbox"> Remember me
+</label>
+<button type="submit" class="btn">Sign in</button>
+</div>
+</div>
+</form>
+</div>
+<h1>Inputs & Styles</h1>
+<div class="bs-docs-example">
+<div class="control-group warning">
+<label class="control-label" for="inputWarning">Input with warning</label>
+<div class="controls">
+<input type="text" id="inputWarning">
+<span class="help-inline">Something may have gone wrong</span>
+</div>
+</div>
+<div class="control-group error">
+<label class="control-label" for="inputError">Input with error</label>
+<div class="controls">
+<input type="text" id="inputError">
+<span class="help-inline">Please correct the error</span>
+</div>
+</div>
+<div class="control-group success">
+<label class="control-label" for="inputSuccess">Input with success</label>
+<div class="controls">
+<input type="text" id="inputSuccess">
+<span class="help-inline">Woohoo!</span>
+</div>
+</div>
+</div>
+<h1>Standard Buttons</h1>
+<div class="bs-docs-example">
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th>Button</th>
+<th>class=""</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><button type="button" class="btn">Default</button></td>
+<td><code>btn</code></td>
+<td>Standard gray button with gradient</td>
+</tr>
+<tr>
+<td><button type="button" class="btn btn-primary">Primary</button></td>
+<td><code>btn btn-primary</code></td>
+<td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
+</tr>
+<tr>
+<td><button type="button" class="btn btn-info">Info</button></td>
+<td><code>btn btn-info</code></td>
+<td>Used as an alternative to the default styles</td>
+</tr>
+<tr>
+<td><button type="button" class="btn btn-success">Success</button></td>
+<td><code>btn btn-success</code></td>
+<td>Indicates a successful or positive action</td>
+</tr>
+<tr>
+<td><button type="button" class="btn btn-warning">Warning</button></td>
+<td><code>btn btn-warning</code></td>
+<td>Indicates caution should be taken with this action</td>
+</tr>
+<tr>
+<td><button type="button" class="btn btn-danger">Danger</button></td>
+<td><code>btn btn-danger</code></td>
+<td>Indicates a dangerous or potentially negative action</td>
+</tr>
+<tr>
+<td><button type="button" class="btn btn-inverse">Inverse</button></td>
+<td><code>btn btn-inverse</code></td>
+<td>Alternate dark gray button, not tied to a semantic action or use</td>
+</tr>
+<tr>
+<td><button type="button" class="btn btn-link">Link</button></td>
+<td><code>btn btn-link</code></td>
+<td>Deemphasize a button by making it look like a link while maintaining button behavior</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1>Styled Input Forms</h1>
+<div class="bs-docs-example">
+<div class="control-group">
+<label class="control-label" for="inputIcon">Email address</label>
+<div class="controls">
+<div class="input-prepend">
+<span class="add-on"><i class="icon-envelope"></i></span>
+<input class="span2" id="inputIcon" type="text">
+</div>
+</div>
+</div>
+</div>
+<h1>Alerts & Messages</h1>
+<div class="bs-docs-example">
+<div class="alert alert-block">
+<button type="button" class="close" data-dismiss="alert">×</button>
+<h4>Warning!</h4>
+Lovely heading with a warning
+</div>
+<div class="alert alert-error">
+Error!
+</div>
+<div class="alert alert-success">
+Success!
+</div>
+<div class="alert alert-info">
+Alert!
+</div>
+</div>
+<h1>Progress Bars</h1>
+<div class="bs-docs-example">
+<div class="span2">
+<div class="progress progress-striped active">
+<div class="bar" style="width: 40%;"></div>
+</div>
+</div>
+<div class="span5">
+<div class="progress progress-info">
+<div class="bar" style="width: 20%"></div>
+</div>
+<div class="progress progress-success">
+<div class="bar" style="width: 40%"></div>
+</div>
+<div class="progress progress-warning">
+<div class="bar" style="width: 60%"></div>
+</div>
+<div class="progress progress-danger">
+<div class="bar" style="width: 80%"></div>
+</div>
+</div>
+<div class="span7">
+<div class="progress progress-info progress-striped">
+<div class="bar" style="width: 20%"></div>
+</div>
+<div class="progress progress-success progress-striped">
+<div class="bar" style="width: 40%"></div>
+</div>
+<div class="progress progress-warning progress-striped">
+<div class="bar" style="width: 60%"></div>
+</div>
+<div class="progress progress-danger progress-striped">
+<div class="bar" style="width: 80%"></div>
+</div>
+</div>
+<div class="span7">
+<div class="progress progress-info progress-striped active">
+<div class="bar" style="width: 20%"></div>
+</div>
+<div class="progress progress-success progress-striped active">
+<div class="bar" style="width: 40%"></div>
+</div>
+<div class="progress progress-warning progress-striped active">
+<div class="bar" style="width: 60%"></div>
+</div>
+<div class="progress progress-danger progress-striped active">
+<div class="bar" style="width: 80%"></div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<ul class="pager">
+<li class="previous">
+<a href="#">&larr; Older</a>
+</li>
+<li class="next">
+<a href="#">Newer &rarr;</a>
+</li>
+</ul>
+<div class="pagination pull-right">
+<ul>
+<li><a href="#">Prev</a></li>
+<li class="active"><a href="#">1</a></li>
+<li><a href="#">2</a></li>
+<li><a href="#">3</a></li>
+<li><a href="#">4</a></li>
+<li><a href="#">Next</a></li>
+</ul>
+</div>
+</div>
+</div>
+ 
+<footer class="footer">
+<div class="container">
+<p class="pull-right"><a href="#">Back to top</a></p>
+</div>
+</footer>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+
+    <script src="assets/js/holder/holder.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+
+    <script src="assets/js/application.js"></script>
+
+
+
+  </body>
+</html>
